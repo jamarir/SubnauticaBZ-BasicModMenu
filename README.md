@@ -10,7 +10,7 @@ To use that mod menu, a class must be created in the Subnautica Below Zero's `As
 > As a side note, the `dumpDir` attribute has been set to `D:/Modding/`. That folder should be updated to any existant folder, if `D:/Modding/` doesn't exist.
 
 Then, a globally used `OnGUI()` method can be hooked, e.g. `WaterBiomeManager.OnGUI()`, which calls the `ModMenuManager()` function as follows:
-```cs`
+```cs
 ModMenu.ModMenuManager();
 ```
 
